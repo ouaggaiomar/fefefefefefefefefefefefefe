@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '؟'
+const prefix = '£'
+const devs = ['448444251504640012',''];
+const adminprefix = "£";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`7MooDY&LeNaRD`,"https://www.twitch.tv/lenerdyt")
+client.user.setGame(`£help | £inv  | `,"http://www.twitch.tv/xxomar360")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,6 +29,7 @@ client.user.setGame(`7MooDY&LeNaRD`,"https://www.twitch.tv/lenerdyt")
   console.log('')
   console.log('')
 });
+
 
 
 client.login(process.env.BOT_TOKEN)
